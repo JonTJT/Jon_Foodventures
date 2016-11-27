@@ -14,6 +14,9 @@ a {
     margin: 0;
 }
 
+
+/* Index */
+
 body {
     max-width: 1280px;
     margin: 0 auto;
@@ -33,16 +36,19 @@ header {
 h1 {
     text-align: center;
     font-size: 70px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif, serif;
     color: antiquewhite;
 }
 
 h3 {
     text-align: center;
     font-size: 45px;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Quicksand', sans-serif, serif;
     color: antiquewhite;
 }
+
+
+/* nav bar */
 
 nav {
     background-color: #ff9e9e;
@@ -60,7 +66,7 @@ nav {
     display: inline;
     font-size: 24px;
     padding: 20px 4%;
-    font-family: 'Quicksand', 'san-serif';
+    font-family: 'Quicksand', sans-serif, serif;
     font-weight: bold;
 }
 
@@ -98,6 +104,9 @@ a:hover {
     color: red;
 }
 
+
+/* image slideshow */
+
 .slider {
     max-width: 100%;
     height: 1000px;
@@ -115,21 +124,21 @@ a:hover {
 }
 
 .slide1 {
-    background: url(images/Salmon.png)no-repeat center;
+    background: url(images/Salmon.jpg)no-repeat center;
     background-size: cover;
     animation: fade 8s infinite;
     -webkit-animation: fade 8s infinite;
 }
 
 .slide2 {
-    background: url(images/BabyRibs.png)no-repeat center;
+    background: url(images/BabyRibs.jpg)no-repeat center;
     background-size: cover;
     animation: fade2 8s infinite;
     -webkit-animation: fade2 8s infinite;
 }
 
 .slide3 {
-    background: url(images/Chillicrab.png)no-repeat center;
+    background: url(images/Chillicrab.jpg)no-repeat center;
     background-size: cover;
     animation: fade3 8s infinite;
     -webkit-animation: fade3 8s infinite;
@@ -189,13 +198,13 @@ article {
     padding: 10px;
     padding-top: 10px;
     font-size: 40px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif, serif;
     margin: 20px;
 }
 
 .content {
     font-size: 26px;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Quicksand', sans-serif, serif;
 }
 
 #instagramlink {
@@ -213,14 +222,14 @@ article {
     margin: 10px;
     margin-top: 200px;
     margin-bottom: 50px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif, serif;
     clear: both;
     text-decoration: underline;
 }
 
 .LatestBlogPostTitle {
     font-size: 35px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif, serif;
     margin-bottom: 30px;
     text-align: center;
     padding: 20px;
@@ -236,7 +245,7 @@ article {
 
 .LBPText {
     font-size: 26px;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Quicksand', sans-serif, serif;
 }
 
 .BeefSteak {
@@ -254,8 +263,24 @@ article {
 .DateofLBP {
     margin-left: 20px;
     margin: 20px;
-    font-family: 'Montserrat', 'sans-serif';
+    font-family: 'Montserrat', sans-serif, serif;
     font-size: 26px;
+}
+
+.MoreBlogPosts a {
+    text-decoration: none;
+    color: black;
+    font-size: 28px;
+    font-family: 'Quicksand', sans-serif, serif;
+}
+
+.MoreBlogPosts a:hover {
+    color: red;
+}
+
+.MoreBlogPosts {
+    text-align: center;
+    margin: 10px;
 }
 
 footer {
@@ -265,7 +290,7 @@ footer {
     padding: 5px;
     font-size: 26px;
     clear: both;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Quicksand', sans-serif, serif;
     background-color: #f4f2e3;
 }
 
@@ -273,12 +298,11 @@ footer {
 /*AboutMe*/
 
 .Aboutme {
-    font-family: 'Montserrat', 'sans-serif';
-    font-size: 40px;
+    font-family: 'Montserrat', sans-serif, serif;
+    font-size: 45px;
     margin-top: 15px;
     margin-bottom: 20px;
     margin-left: 5px;
-    text-decoration: underline;
     padding: 5px;
 }
 
@@ -290,7 +314,7 @@ footer {
 }
 
 .AboutmeContent {
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Quicksand', sans-serif, serif;
     font-size: 24px;
 }
 
@@ -302,7 +326,7 @@ footer {
 }
 
 .AboutmeContent2 {
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Quicksand', sans-serif, serif;
     font-size: 24px;
     margin-top: 120px;
     margin-left: 15px;
@@ -311,15 +335,157 @@ footer {
 .Hobby {
     width: 650px;
     margin-top: 60px;
-    float:left;
+    float: left;
     margin-right: 15px;
     margin-bottom: 30px;
 }
 
 .AboutmeContent3 {
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Quicksand', sans-serif, serif;
     font-size: 24px;
     margin-top: 135px;
     margin-right: 5px;
-    
+}
+
+
+/*Blog*/
+
+.BlogHeader {
+    font-size: 50px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    font-family: 'Montserrat', sans-serif, serif;
+    clear: both;
+}
+
+.Blogpost1 {
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif, serif;
+    margin-bottom: 30px;
+    text-align: center;
+    padding: 20px;
+    border-top: solid black 3px;
+    border-bottom: solid black 3px;
+}
+
+.Date1 {
+    margin-left: 20px;
+    margin: 20px;
+    font-family: 'Montserrat', 'sans-serif', serif;
+    font-size: 26px;
+}
+
+.Blogpost1content {
+    font-size: 26px;
+    font-family: 'Quicksand', sans-serif, serif;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.Blogpost2 {
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif, serif;
+    text-align: center;
+    border-top: solid black 3px;
+    border-bottom: solid black 3px;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+.Ramen {
+    float: left;
+    width: 800px;
+    margin-right: 25px;
+}
+
+.Date2 {
+    margin-left: 20px;
+    margin: 20px;
+    font-family: 'Montserrat', sans-serif, serif;
+    font-size: 26px;
+}
+
+.Blogpost2content {
+    font-size: 26px;
+    font-family: 'Quicksand', sans-serif, serif;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.Blogpost3 {
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif, serif;
+    text-align: center;
+    border-top: solid black 3px;
+    border-bottom: solid black 3px;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+.BakedSalmonZoom {
+    float: left;
+    width: 800px;
+    margin-right: 25px;
+}
+
+.Date3 {
+    margin-left: 20px;
+    margin: 20px;
+    font-family: 'Montserrat', sans-serif, serif;
+    font-size: 26px;
+}
+
+.Blogpost3content {
+    font-size: 26px;
+    font-family: 'Quicksand', sans-serif, serif;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.BakedSalmonwSoup {
+    width: 1000px;
+    margin-top: 40px;
+    margin-left: 120px;
+}
+
+.Chawanmushi {
+    width: 500px;
+    margin-top: 40px;
+    margin-left: 360px;
+}
+
+
+/* Contact Me */
+
+.ContactMeHeader {
+    font-size: 50px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    font-family: 'Montserrat', sans-serif, serif;
+    clear: both;
+}
+
+.ContactMecontent {
+    font-size: 26px;
+    font-family: 'Quicksand', sans-serif, serif;
+}
+
+.FAQHeader {
+    margin: 5px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif, serif;
+}
+
+.FAQ {
+    font-size: 26px;
+    font-family: 'Quicksand', sans-serif, serif;
+    margin-bottom: 50px;
+}
+
+#facebooklink {
+    text-decoration: none;
 }
